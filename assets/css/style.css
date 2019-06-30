@@ -1,0 +1,20 @@
+#imgbox {
+    border: solid red;
+    height: 600px;
+}
+#guessbox {
+    border: dotted blue;
+    height: 600px;
+}
+#heading {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+body {
+    background-image: url();
+    height: 500px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+}
+
