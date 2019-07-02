@@ -9,20 +9,25 @@
 #heading {
     font-family: 'Permanent Marker', cursive;
     text-align: center;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
 }
 body {
-    background-image: url(assets/images/saby-menyhei-hogwartsinthesnow-final.jpg);
     
   background-position: center;
   background-repeat: no-repeat; 
-  background-size: 100% 100%;
+  background-size: 100% 200%;
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/013/498/821/large/saby-menyhei-hogwartsinthesnow-final.jpg?1539869271);
 
   
 }
 div {
-    margin-top: 50px;
+    margin-top: 30px;
     font-family: 'Kaushan Script', cursive;
-    font-size: 
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    
+    
 
 }
 

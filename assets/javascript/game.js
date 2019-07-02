@@ -18,6 +18,7 @@ var remaining = document.getElementsByClassName("remaining");
 // choose word randomly
 randomNumber = Math.floor((Math.random() * 8) + 1);
 var playerword = words[randomNumber];
+var split = playerword.split("");
 guessesRemaining = 20;
 // create underscore based on length of word
 
@@ -33,6 +34,9 @@ function getUnderscore() {
     };
     return underscorebank;
 }
+
+
+
 
 console.log(getUnderscore());
 
@@ -60,8 +64,8 @@ $(document).on("keypress", function myfunction(event) { // keypress->data->strin
 
         
         for (var i = 0; i < playerword.length; i++) {
-            if (rightWords === playerword[i]) {
-                underscorebank[i] = rightWords;
+            if (keycode === playerword[i]) {
+                underscorebank[i] = keycode;
             }
         }
 
@@ -107,41 +111,41 @@ $(document).on("keypress", function myfunction(event) { // keypress->data->strin
 //
 
 if (playerword === words[1]) {
-    $('.clue').html("<img src='assets/images/hp.jpg' height='300px' width='300px'/> ")
+    $('.clue').html("<img src='assets/images/hp.jpg' height='100%' width='100%'/> ")
 }
 
 if (playerword === words[4]) {
-    $('.clue').html("<img src='assets/images/harry-potter-and-the-order-of-the-phoenix.jpg' height='300px' width='300px'/> ")
+    $('.clue').html("<img src='assets/images/harry-potter-and-the-order-of-the-phoenix.jpg' height='100%' width='100%'/> ")
 }
 
 if (playerword === words[2]) {
-    $('.clue').html("<img src='assets/images/Hermione.jpg' height='300px' width='300px'/> ")
+    $('.clue').html("<img src='assets/images/Hermione.jpg' height='100%' width='100%'/> ")
 }
 
 if (playerword === words[3]) {
-    $('.clue').html("<img src='assets/images/s-l300.jpg' height='300px' width='300px'/> ")
+    $('.clue').html("<img src='assets/images/s-l300.jpg' height='100%' width='100%' /> ")
 }
 
 if (playerword === words[7]) {
-    $('.clue').html("<img src='assets/images/RubeusHagrid_WB_F2_HagridInKnockturnAlley_Still_100615_Land.jpg' height='300px' width='300px'/> ")
+    $('.clue').html("<img src='assets/images/RubeusHagrid_WB_F2_HagridInKnockturnAlley_Still_100615_Land.jpg' height='100%' width='100%'/> ")
 }
 
 if (playerword === words[6]) {
-    $('.clue').html("<img src='assets/images/5zPT_nm2_400x400.jpg' height='300px' width='300px'/> ")
+    $('.clue').html("<img src='assets/images/5zPT_nm2_400x400.jpg' height='100%' width='100%'/> ")
 }
 
 if (playerword === words[8]) {
-    $('.clue').html("<img src='assets/images/large.jpg' height='300px' width='300px'/> ")
+    $('.clue').html("<img src='assets/images/large.jpg' height='100%' width='100%'/> ")
 }
 
 if (playerword === words[10]) {
-    $('.clue').html("<img src='assets/images/6578789-maxresdefault.jpg' height='300px' width='300px'/> ")
+    $('.clue').html("<img src='assets/images/6578789-maxresdefault.jpg' height='100%' width='100%'/> ")
 }
 
 if (words[randomNumber] === words[9]) {
-    $('.clue').html("<img src='assets/images/original.jpg' height='300px' width='300px'/> ")
+    $('.clue').html("<img src='assets/images/original.jpg' height='100%' width='100%'/> ")
 }
 
 if (words[randomNumber] === words[5]) {
-    $('.clue').html("<img src='assets/images/220px-Ootp076.jpg' width='300px'/> ")
+    $('.clue').html("<img src='assets/images/220px-Ootp076.jpg' height='100%' width='100%'/> ")
 }
