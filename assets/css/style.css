@@ -11,10 +11,18 @@
     text-align: center;
 }
 body {
-    background-image: url();
-    height: 500px;
+    background-image: url(assets/images/saby-menyhei-hogwartsinthesnow-final.jpg);
+    
   background-position: center;
   background-repeat: no-repeat; 
   background-size: 100% 100%;
+
+  
+}
+div {
+    margin-top: 50px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 
+
 }
 

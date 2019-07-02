@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,42 +10,49 @@
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="assets/javascript/game.js" ></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Document</title>
 </head>
+
 <body>
+
+    <!--<img src="assets/images/220px-Ootp076.jpg"/>-->
     <h1 id="heading">HANGMAN</h1>
-<div class="container">
-    <div class="row">
-        <div class="col" id="imgbox">
-            
-        </div>
-        <div class="col" id="guessbox">
-            <div class="col-">
-Press any key to begin!
+    <div class="container">
+        <div class="row">
+            <div class="col clue" id="imgbox">
+
             </div>
-            <div class="col-">
-wins
-            </div>
-            <div class="col-">
-current word
-            </div>
-            <div class="col-">
-_________
-            </div>
-            <div class="col-">
-Guesses remaining
-            </div>
-            <div class="col-">
-Letters guessed
-            </div>
-            <div class="col-">
- f g h h g g
+            <div class="col" id="guessbox">
+                <div class="col- start">
+                    Press any key to begin!
+                </div>
+                <div class="col- wins">
+                    wins
+                </div>
+                <div class="col- current">
+                    current word
+                </div>
+                <div class="col- answers">
+                    _________
+                </div>
+                <div>
+                    Guesses remaining
+                    <div class="remaining">
+                        15
+                    </div>
+                </div>
+                <div>
+                    Wrong Guesses
+                    <div class="wrongGuess">
+
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
-</div>
 
 
 
@@ -59,7 +67,7 @@ Letters guessed
 
 
 
-<!--
+    <!--
     <div class="container">
     <div class="row">
         <div class="col-">
@@ -69,6 +77,9 @@ Letters guessed
 </div>
 
 -->
+    
+    <script src="assets/javascript/game.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 </body>
 
